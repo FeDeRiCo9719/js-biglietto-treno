@@ -6,13 +6,13 @@ var km = prompt("quanti km devi fare?")
 var age = prompt("quanti anni hai?")
 
 //---------------- CALCOLO PREZZO VIAGGIO ----------------
-// 1. calcolo prezzo: ( 0.21 € * età passeggero )
+// 1. calcolo prezzo: ( km * 0.21 € )
 var price = alert(km * 0.21) 
 
 //---------------- POSSIBILE SCONTO MINORENNI ----------------
 // 1. 20% sul prezzo
 if (age < 18) {
-    price = (price / 100 * 20)
+    price = ((price * 20) / 100)
   } else {
   }
 
