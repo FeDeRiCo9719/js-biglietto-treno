@@ -18,4 +18,7 @@ if (age < 18) {
 } else {
     var price = km * 0.21; 
 }
-alert(price);
+
+// alert(price);
+var final_price = price.toFixed(2);
+document.getElementById("price").innerHTML += final_price;
