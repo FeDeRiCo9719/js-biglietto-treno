@@ -1,7 +1,9 @@
 body {
+    text-align: center;
     color: white;
     font: arial;
     background-color: teal;
+    padding-top: 100px;
 }
 span {
     font-size: 30px;
