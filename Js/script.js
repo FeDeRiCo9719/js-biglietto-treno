@@ -5,7 +5,7 @@ var km = parseInt(prompt("Inserisci i km da percorrere"));
 // 2. quanti anni hai?
 var age = parseInt(prompt("Inserisci l'età"));
 
-//---------------- CALCOLO PREZZO VIAGGIO minorenni ----------------
+//---------------- CALCOLO PREZZO VIAGGIO ----------------
 // 3. sconto del 20% per i minorenni o 40% per gli over 65
 if (age < 18) {
    var price = alert(((km * 0.21) * 80) /100);
